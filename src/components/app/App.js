@@ -1,4 +1,4 @@
-import {Component} from "react";
+import React, {Component} from "react";
 
 import AppHeader from "../appHeader/AppHeader";
 import RandomChar from "../randomChar/RandomChar";
@@ -9,6 +9,7 @@ import ErrorBoundary from "../errorBoundary/errorBoundary";
 import decoration from '../../resources/img/vision.png';
 
 class App extends Component {
+
     state = {
         selectedChar: null
     }
